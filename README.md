@@ -41,14 +41,14 @@ This project aims to predict car prices based on various features such as mileag
 
 ---
 
-## 🚧 Project Limitations
-🔸 The model's accuracy depends on the quality and diversity of training data.
-🔸 Limited feature set might not capture all real-world factors affecting car prices.
-🔸 The model does not consider external factors like **market demand, brand reputation, and economic conditions**.
-🔸 Hyperparameter tuning can be further optimized for better performance.
-🔸 Model deployment as a full-scale API is not included in this version.
+## Project Limitations
+- The model's accuracy depends on the quality and diversity of training data.
+- Limited feature set might not capture all real-world factors affecting car prices.
+- The model does not consider external factors like **market demand, brand reputation, and economic conditions**.
+- Hyperparameter tuning can be further optimized for better performance.
+- Model deployment as a full-scale API is not included in this version.
 
 ---
 
-## 📜 Conclusion
+## Conclusion
 This project provides a complete **ML pipeline** for predicting car prices, utilizing **MLflow** for tracking and model management. Future improvements could include **more advanced feature engineering, deep learning models, and cloud-based deployment**.
