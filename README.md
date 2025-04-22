@@ -16,6 +16,16 @@ This project aims to predict car prices based on various features such as mileag
 
 ---
 
+## Tech Stack
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Pandas
+- Mlflow
+- logging
+
+---
+
 ## Key Steps in the Project
 ### Data Collection & Preprocessing
 - Load dataset and perform exploratory data analysis (EDA).
