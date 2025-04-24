@@ -1,2 +1,6 @@
 temp.txt
 mlruns
+.env
+car-price-prediction.pem
+mlflow_user_accessKeys.csv
+car_price_prediction_venv
