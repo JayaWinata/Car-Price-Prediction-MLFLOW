@@ -24,6 +24,16 @@ By using MLflow in both local and remote configurations, the project enables fle
 
 ---
 
+## Tech Stack
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Pandas
+- Mlflow
+- logging
+
+---
+
 ## Key Steps in the Project
 
 ### Data Collection & Preprocessing
