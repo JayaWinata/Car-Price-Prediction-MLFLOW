@@ -2,13 +2,23 @@
 
 ## Overview
 
-This project aims to predict car prices based on various features such as mileage, year, fuel type, and more. It leverages machine learning models and integrates MLflow for both local (car_price_prediction_script.ipynb) and remote (app.py) experiment tracking, model versioning, and deployment. The project is built around a structured MLOps pipeline, ensuring:
+This project is a demonstration of how to use MLflow for machine learning experiment tracking and model management in both local and remote environments. It focuses on predicting car prices using various features such as mileage, year, fuel type, and more, leveraging machine learning models within a structured MLOps pipeline.
 
-- Reproducibility of model training
+MLflow is used in two key configurations:
 
-- Organized experiment tracking across environments
+- Local Tracking (car_price_prediction_script.ipynb):
+  Experiments are logged locally during development. MLflow captures model parameters, evaluation metrics, artifacts, and versioned models for reproducibility and comparison.
 
-By using MLflow in both local and remote configurations, the project enables flexible tracking during development and scalable experiment management in production settings.
+- Remote Tracking Server (app.py):
+  MLflow is configured to connect to a remote tracking server and model registry. This enables centralized experiment logging, collaborative tracking, and production-ready model versioning.
+
+This setup showcases how to:
+
+- Seamlessly transition from local experimentation to remote production tracking.
+
+- Maintain consistent and organized ML experimentation.
+
+- Enable collaborative model development using MLflow’s web UI and model registry.
 
 ---
 
